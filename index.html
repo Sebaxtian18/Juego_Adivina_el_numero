@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adivina el numero</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <main>
+        <h1>Adivina el numero</h1>
+
+        <div class="parrafosCabecera">
+        <p>El juego consiste en adivinar el numero elegido por la maquina en el menor tiempo posible.</p>
+        <p>Solo tienes 10 intentos para adivinarlo. <br> ¡Buena suerte!</p>
+        </div>    
+        <div class="form">
+            <label for="">Ingresa el numero</label>
+            <input type="number" max="100" min="1" placeholder="Ingrese un numero del 1 al 100" class="conjetura">
+            <input type="submit" value="Enviar respuesta" class="btnEnviar">
+        </div>
+
+        <div class="parrafosDeSalida">
+            <p class="turnosRestantes"></p>
+            <p class="turnosAnteriores"></p>
+            <p class="resultado"></p>
+            <p class="ayudas"></p>
+        </div>
+    </main>
+
+    <script src="./script.js"></script>
+</body>
+</html>

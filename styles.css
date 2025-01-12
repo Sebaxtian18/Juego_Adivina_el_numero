@@ -1,0 +1,94 @@
+/*Estilos generales*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Estilos para el cuerpo de la pagina*/
+body{
+    background-image: url(./acents/banerAdivinaElNumero.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+/*Estilos para el conteedor main*/
+main{
+    width: 100%;
+}
+
+/*Estilos del titulo*/
+main h1{
+    text-align: center;
+    font-size: 80px;
+    text-shadow: 4px 4px 8px black;
+    text-transform: uppercase;
+}
+
+main .parrafosCabecera{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 85px;
+} 
+
+.form{
+    width: 100%;
+    margin-top: 45px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form label[for =""]{
+    font-size: 30px;
+    text-transform: uppercase;
+    border-radius: 2px;
+    padding: 5px;
+    margin-bottom: 15px;
+}
+
+.form input[type="number"]{
+    width: 205px;
+    height: 25px;
+    margin-bottom: 15px;
+}
+
+.form input[type="submit"]{
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: antiquewhite;
+}
+
+.parrafosDeSalida{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    height: 300px;
+    margin: 30px auto;
+    border-radius: 15px;
+    background-color: antiquewhite;
+    backdrop-filter: blur(5px);
+    background-color: rgb(246, 243, 243, 0.1);
+}
+
+.parrafosDeSalida p{
+    padding: 12px;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.btnReinicio{
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: antiquewhite;
+    margin-top: 10px;
+}
